@@ -1,5 +1,5 @@
 # gecco-spring
-gecco爬虫和spring结合使用。1.2.9版本开始支持spring-boot。spring升级到4.x。
+gecco爬虫和spring结合使用。支持当前页面抓取和下一页抓取以及子页面的抓取
 ## Download
 
 	<dependency>
@@ -56,5 +56,3 @@ pipeline的开发和之前一样，唯一不同的是不需要@PipelineName("con
             return new ConsolePipeline();
         }
     }
-## DEMO
-参考源代码中测试用例src/test，有详细的例子
