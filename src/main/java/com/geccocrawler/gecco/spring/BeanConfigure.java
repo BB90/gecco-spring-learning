@@ -12,7 +12,7 @@ public class BeanConfigure {
 	}
 	
 	@Bean(name="consolePipeline")
-	public ConsolePipeline consolePipeline() {
-		return new ConsolePipeline();
+	public doutusheIndexPipeline consolePipeline() {
+		return new doutusheIndexPipeline();
 	}
 }
